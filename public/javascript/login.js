@@ -15,7 +15,7 @@ async function loginFormHandler(event) {
       });
   
       if (response.ok) {
-        window.location.replace('/dashboard');
+        setTimeout(function(){window.location.replace('/dashboard')},100);
       } else {
         alert(response.statusText);
       }
@@ -42,7 +42,7 @@ async function signupFormHandler(event) {
       });
   
       if (response.ok) {
-        window.location.replace('/dashboard/');
+        setTimeout(function(){window.location.replace('/dashboard')},100);
       } else {
         alert(response.statusText);
       }
