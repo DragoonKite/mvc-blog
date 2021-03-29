@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const {Post, User, Comment} = require('../models');
 
-
 //All Post
 router.get('/', (req,res) => {
     console.log('===================');
@@ -85,7 +84,7 @@ router.get('/post/:id', (req, res) => {
         const post = dbPostData.get({ plain: true });
 
         // pass data to template
-        res.render('single-post', { 
+        res.render('individual-post', { 
             post,
             loggedIn: req.session.loggedIn 
         });
