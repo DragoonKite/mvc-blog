@@ -29,6 +29,11 @@ button {
     background: transparent;
 }
 
+button:hover {
+    background-color: black;
+    color:rgb(119, 189, 119);
+}
+
 form {
     padding-left: 30px;
 }
@@ -116,6 +121,10 @@ ul {
     color: rgb(119, 189, 119);
 }
 
+.login-form {
+    padding-top: 20px;
+}
+
 .meta {
     color: rgb(119, 189, 119);
     font-size: small;
@@ -133,6 +142,17 @@ ul {
     padding-bottom: 20px;
 }
 
+#email-login{
+    margin-left: 25px;
+}
+
+#email-signup {
+    margin-left: 26px;
+}
+
+#password-signup {
+    margin-left: 1px;
+}
 #post-title {
     margin-left: 27px;
 }
