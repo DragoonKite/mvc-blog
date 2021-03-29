@@ -103,6 +103,10 @@ ul {
     padding-left: 15px;
 }
 
+.edit-link {
+    background-color: black;
+}
+
 .indent {
     padding-left: 20px;
     padding-right: 20px;
